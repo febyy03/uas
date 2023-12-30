@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>webme</title>
+</head>
+<body>
+    <!----------start nav---------->
+    <div class="nav">
+        <div class="logo">
+            <h2>logo</h2>
+        </div>
+        <ul  class="data-list">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li class="wisata">Wisata
+
+                <ul class="list">
+                    <a href="#"><li>Amed</li></a>
+                    <a href="#"><li>Pandawa</li></a>
+                    <a href="#"><li>Melasti</li></a>
+                </ul>
+
+            </li></a>
+
+            <a href="#"><li>Tiket Harga</li></a>
+            <a href="#"><li>Informasi</li></a>
+        </ul>
+    </div>
+    <!-------finish nav-------->
+
+    <!---------header---------->
+
+<div class="header">
+    <div class="des-header">
+        <h1>Wisata Pantai Bali</h1>
+    </div>
+    <div class="gambar">
+        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/6-kukup-beach-java-joana-kruse.jpg">
+
+        </div>
+    </div>
+</div>
+
+     <!---------header selesai-->
+     <!---------start block---------->
+     <!--------------BLOCK 2------------->
+     <div class="bg-block">
+        <a href="#">
+            <div class="block">
+                <div class="gambar-block">
+                    <img src=" {% static 'img/amed.webp' %} " alt="">
+                </div>
+                <div class="des-block">
+                    <h3>Pantai Amed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati assumenda, nam, inventore!</p>   
+                </div>
+            </div>
+        </a> 
+        <!---------------BLOCK 2------------->
+        <a href="#">
+            <div class="block">
+                <div class="gambar-block">
+                    <img src=" {% static 'img/pandawa.webp' %} " alt="">
+                </div>
+                <div class="des-block">
+                    <h3>Pantai pandawa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non saepe ipsam nam inventore pariatur!</p>   
+                </div>
+            </div>
+        </a> 
+        <!---------------BLOCK 3------------->
+        <a href="#">
+            <div class="block">
+                <div class="gambar-block">
+                    <img src=" {% static 'img/Melasti.jpg' %} " alt="">
+                </div>
+                <div class="des-block">
+                    <h3>Pantai Melasti</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi cumque nisi porro numquam exercitationem!</p>   
+                </div>
+            </div> 
+        </a> 
+         <!---------------BLOCK 4------------->
+        <a href="#">
+            <div class="block">
+                <div class="gambar-block">
+                    <img src=" {% static 'img/Kuta.jpg' %} " alt="">
+                </div>
+                <div class="des-block">
+                    <h3>Pantai pandawa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non saepe ipsam nam inventore pariatur!</p>   
+                </div>
+            </div>
+        </a> 
+     </div>
+
+     <!---------finish card--------->
+
+
+
+</body>
+</html>

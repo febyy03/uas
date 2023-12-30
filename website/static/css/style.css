@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+.nav {
+    color: blue;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+}
+.nav a {
+    color: blue;
+}
+.nav li {
+    padding: 5px;
+}
+.nav li:hover {
+    background-color: wheat;
+}
+.data-list {
+    margin-left: 60%;
+}
+.data-list li {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.logo {
+    margin-left: 30px;
+}
+.list {
+    display: none;
+    background-color:  aqua;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.list li {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+.data-list a{
+    text-decoration: none;
+}
+.wisata:hover .list{
+    display: block;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+}
+.des-header {
+  
+   width: 40%; 
+   margin: auto;
+}
+.des-header h1{
+   font-family: 800%;
+   font-size: 6rem;
+   width: 80%;
+   color: rgb(32, 32, 33);
+}
+.gambar {
+    width: 40%;
+    height: 100vh;
+}
+.gambar img {
+    width: 100%;
+    height: 100%;
+}
+
+/*---------class block------*/
+
+
+.bg-block {
+    width: 80%;
+    border: 2px solid black;
+    padding-bottom: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.block {
+    border: 2px solid  red;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.gambar-block {
+    width: 250px;
+    height: 200px;
+    border: 1px solid red ;
+}
+.gambar-block img {
+    width: 100%;
+    height: 100%;
+}
+.des-block {
+    padding:  5px;
+}

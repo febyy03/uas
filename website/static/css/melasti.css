@@ -57,7 +57,7 @@
 
 .header {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .des-header {
   
@@ -66,7 +66,7 @@
 }
 .des-header h1{
    font-family: 800%;
-   font-size: 6rem;
+   font-size: 5rem;
    width: 80%;
    color: rgb(40, 184, 216);
 }
@@ -79,58 +79,21 @@
     height: 100%;
 }
 
-/*---------class block------*/
-
-
-.bg-block {
-    width: 90%;
+/*---------container------*/
+.container {
     
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-bottom: 50px;
-}
-.block:hover {
-    box-shadow: 0px 0px 20px rgb(40, 184, 216);
-    transition: 300ms;
-}
-.block {
-    width: 250px;
-    height: 300px;
-    margin: auto;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-.gambar-block {
-    width: 250px;
-    height: 200px;
-    overflow: hidden;
-}
-.gambar-block img {
+    background-color: whitesmoke;
     width: 100%;
-    height: 100%;
-    transition: 2s;
+    margin: auto;
 }
-.des-block {
-    padding:  5px;
-    padding-left: 15px;
-    padding-bottom: 20px;
+.content h2 {
+    color:  rgb(40, 184, 216);
 }
-.bg-block a {
-    text-decoration: none;
-}
-.des-block h3 {
-    margin-bottom: 10px;
-}
-.des-block p {
-    line-height: 25px;
+.content p {
     color: #333;
 }
-.block:hover img {
-    transform: scale(1.5);
-    transition: 1s;
-}
+
+
 /* baground footer */
 .bg-footer {
     
